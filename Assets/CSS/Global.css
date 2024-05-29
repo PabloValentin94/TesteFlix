@@ -1,0 +1,80 @@
+/* Recursos: */
+
+@font-face {
+
+    font-family: "Gotham Black"; /* Usada em títulos. */
+    src: local("Gotham Black"), url("../Fonts/Gotham/Gotham-Black.otf");
+
+}
+
+@font-face {
+
+    font-family: "Gotham Light"; /* Usada em textos comuns. */
+    src: local("Gotham Light"), url("../Fonts/Gotham/GothamLight.ttf");
+
+}
+
+/* Constantes: */
+
+:root {
+
+    --page-color: #141414;
+    --main-color: #E50914;
+    --neutral-color: #FFFFFF;
+
+}
+
+/* Estilos: */
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Gotham Light";
+
+}
+
+body {
+
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--page-color);
+    color: var(--neutral-color);
+    overflow: hidden;
+
+}
+
+#container {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+
+#container main {
+
+    display: flex;
+    background-color: transparent;
+
+}
+
+/* Responsividade: */
+
+@media (max-width: 1270px) {
+
+    #container {
+
+        align-items: flex-start;
+        justify-content: center;
+    
+    }
+
+}

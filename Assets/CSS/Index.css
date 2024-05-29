@@ -1,0 +1,92 @@
+/* Recursos: */
+
+@import url("./Global.css");
+
+/* Estilos: */
+
+#container main {
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+#container main figure {
+
+    height: 150px;
+    width: 300px;
+    overflow: hidden;
+    cursor: default;
+
+}
+
+#container main figure img {
+
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#container main div {
+
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+#container main div section {
+
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+#container main div section figure {
+
+    height: 200px;
+    width: 200px;
+    border: 2px solid var(--neutral-color);
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+#container main div section figure a {
+
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    transition: 1s;
+
+}
+
+#container main div section figure a img {
+
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#container main div section h2 {
+
+    font-size: 15px;
+    font-family: "Gotham Black";
+    color: var(--neutral-color);
+    text-transform: uppercase;
+
+}
